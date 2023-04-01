@@ -17,10 +17,16 @@ font-size: 16px;
 
 }
 
+img {
+    width: 100px;
+  height: 100px;
+}
+
+
 /* Inicio header */
 
 header {
-    background-color: whitesmoke;
+    background-color:#E0E1E6;
     padding: 15px;
 }
 
@@ -47,6 +53,8 @@ header nav{
 header nav li{
     display: inline-block;
     margin-left: 10px;
+    text-align: justify;
+    vertical-align: text-bottom; 
 }
 
 
