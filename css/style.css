@@ -57,13 +57,18 @@ header nav li{
     vertical-align: text-bottom; 
 }
 
+/* Final header */
 
+/* Inicio hero */
 
-
-
-
-
-
-
+.hero{
+    background-color: #e5dddd;
+    background-image: url(../img/abejas.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
 
 /* Final header */
