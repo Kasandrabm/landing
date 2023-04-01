@@ -17,10 +17,16 @@ font-size: 16px;
 
 }
 
+img {
+    width: 100px;
+  height: 100px;
+}
+
+
 /* Inicio header */
 
 header {
-    background-color: whitesmoke;
+    background-color:#E0E1E6;
     padding: 15px;
 }
 
@@ -47,15 +53,57 @@ header nav{
 header nav li{
     display: inline-block;
     margin-left: 10px;
+    text-align: justify;
+    vertical-align: text-bottom; 
 }
 
+/* Final header */
 
+/* Inicio hero */
 
+.hero{
+    background-color: #e5dddd;
+    background-image: url(../img/abejas.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    position: relative;
+}
 
+.hero>div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
 
+}
 
+.hero h4{
+    margin: 15px 0;
+    font-size: 110%;
+    text-shadow: 1px 1px 1px black;
+}
 
+.hero h1{
+    font-size: 220%;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
 
+.hero>div>div> button:first-child{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero>div>div> button:last-child{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 
 /* Final header */
