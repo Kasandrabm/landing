@@ -107,3 +107,34 @@ header nav li{
 
 
 /* Final header */
+
+ /* Inicio main profesor */
+
+ main {
+    background-color: #E0E1E6;
+ }
+
+ main section {
+    width: 1004px;
+    margin:-60px auto 0;/* se ajusta al centor pantalla y para arriba porque es lo que necesitamos */
+    background-color:  #E0E1E6;
+    padding: 15px;
+    border-top: 4px solid goldenrod;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ main section article{
+    width: 33.333%;
+ }
+
+ img {
+   /* las img deben adaptarse al 100% del elemento que lo contiene, asi nunca soprepasarán su contenedor */
+    width: 100%;
+    height: auto; /* para que no la deforme */
+    display: block;
+ }
+
+
+ /* final main profesor */
