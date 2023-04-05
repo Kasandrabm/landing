@@ -136,5 +136,14 @@ header nav li{
     display: block;
  }
 
+ main article h3 {
+    margin-bottom: 10px;
+ }
+
+ main article h3 span {
+    color: blue;
+    font-weight: bold;
+ }
+
 
  /* final main profesor */
