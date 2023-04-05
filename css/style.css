@@ -145,5 +145,12 @@ header nav li{
     font-weight: bold;
  }
 
+ footer {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+ }
+
 
  /* final main profesor */
